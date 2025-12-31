@@ -219,6 +219,9 @@ require(['vs/editor/editor.main'], function() {
             'dracula': { base: 'vs-dark', bg: '#282a36' },
             'forest': { base: 'vs-dark', bg: '#1b2b23' },
             'cyberpunk': { base: 'hc-black', bg: '#0b0c15' },
+            'midnight': { base: 'vs-dark', bg: '#0f0c29' },
+            'monokai': { base: 'vs-dark', bg: '#272822' },
+            'abyss': { base: 'hc-black', bg: '#050510' },
             'sunset': { base: 'vs', bg: '#fffaf4' },
             'lavender': { base: 'vs', bg: '#fbfbfe' },
             'solarized': { base: 'vs', bg: '#fdf6e3' }

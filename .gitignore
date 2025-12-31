@@ -1,0 +1,12 @@
+target/
+node_modules/
+.mvn/
+.idea/
+.vscode/
+*.class
+*.log
+.DS_Store
+temp_code_execution/
+test_temp_exec/
+*.jar
+*.war

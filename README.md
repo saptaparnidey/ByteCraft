@@ -79,6 +79,26 @@ ByteCraft is a feature-rich, web-based tool designed for developers to write, ex
     Open your browser and navigate to:
     [http://localhost:8080](http://localhost:8080)
 
+### 🖥️ Run as Desktop App (Electron)
+
+ByteCraft can be run as a native desktop application using Electron.
+
+> **Note**: You must have Node.js and npm installed.
+
+1.  **Install Node Dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+2.  **Start Development Mode**:
+    This single command starts both the Spring Boot backend AND the Electron desktop app.
+    ```bash
+    npm run dev
+    ```
+    - It waits for the backend to be ready before launching the window.
+    - Both processes run in the same terminal.
+
 ## 📝 Usage Guide
 
 - **Java Editor**: Type your code in the main window and click **Run Code**. Ensure your main class is named `Main`.

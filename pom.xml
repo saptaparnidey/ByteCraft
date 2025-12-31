@@ -8,10 +8,10 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bytecraft</groupId>
-	<artifactId>ByteCraft</artifactId>
+	<groupId>com.javix</groupId>
+	<artifactId>Javix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ByteCraft</name>
+	<name>Javix</name>
 	<description>Web-Based Java Code Editor</description>
 	<properties>
 		<java.version>17</java.version>
@@ -20,6 +20,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>

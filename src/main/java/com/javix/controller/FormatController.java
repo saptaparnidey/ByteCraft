@@ -1,8 +1,8 @@
-package com.bytecraft.controller;
+package com.javix.controller;
 
-import com.bytecraft.model.FormatRequest;
-import com.bytecraft.model.FormatResponse;
-import com.bytecraft.service.FormatService;
+import com.javix.model.FormatRequest;
+import com.javix.model.FormatResponse;
+import com.javix.service.FormatService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

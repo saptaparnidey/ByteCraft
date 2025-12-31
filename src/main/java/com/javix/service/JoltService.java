@@ -1,4 +1,4 @@
-package com.bytecraft.service;
+package com.javix.service;
 
 import com.bazaarvoice.jolt.Chainr;
 import com.bazaarvoice.jolt.JsonUtils;

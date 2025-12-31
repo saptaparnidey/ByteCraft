@@ -1,4 +1,4 @@
-package com.bytecraft;
+package com.javix;
 
 import java.io.*;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package com.bytecraft.model;
+package com.javix.model;
 
 public class FormatResponse {
     private String result;

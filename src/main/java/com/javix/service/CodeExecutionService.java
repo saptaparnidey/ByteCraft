@@ -1,6 +1,6 @@
-package com.bytecraft.service;
+package com.javix.service;
 
-import com.bytecraft.model.CodeResponse;
+import com.javix.model.CodeResponse;
 import org.springframework.stereotype.Service;
 
 import java.io.*;

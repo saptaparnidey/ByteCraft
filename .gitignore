@@ -10,3 +10,4 @@ temp_code_execution/
 test_temp_exec/
 *.jar
 *.war
+.vscode

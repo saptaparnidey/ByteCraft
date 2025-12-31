@@ -1,14 +1,16 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
+const path = require('path');
 
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 1280,
     height: 800,
-    title: 'ByteCraft',
+    title: 'Javix',
     autoHideMenuBar: true,
     webPreferences: {
       nodeIntegration: false,
-      contextIsolation: true
+      contextIsolation: true,
+      preload: path.join(__dirname, 'preload.js')
     }
   });
 
@@ -20,7 +22,7 @@ const createWindow = () => {
   const { Menu } = require('electron');
   const template = [
     {
-      label: 'ByteCraft',
+      label: 'Javix',
       submenu: [
         { role: 'quit' }
       ]
@@ -54,4 +56,14 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit();
+});
+
+ipcMain.on('quit-app', async () => {
+  try {
+    // Attempt to gracefully shutdown the Spring Boot backend
+    await fetch('http://localhost:8080/actuator/shutdown', { method: 'POST' });
+  } catch (error) {
+    console.error('Failed to shutdown backend:', error.message);
+  }
+  app.quit();
 });

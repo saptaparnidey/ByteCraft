@@ -8,7 +8,7 @@ require(['vs/editor/editor.main'], function() {
                 '// Do not change the name of the Main class',
                 'public class Main {',
                 '    public static void main(String[] args) {',
-                '        System.out.println("Hello, ByteCraft!");',
+                '        System.out.println("Hello, Javix!");',
                 '    }',
                 '}'
             ].join('\n'),
@@ -488,6 +488,17 @@ function copyToClipboard(source) {
             }, 2000);
         }).catch(err => {
             console.error('Failed to copy: ', err);
+        });
+    }
+}
+
+// Electron Integration
+if (window.electronAPI) {
+    const exitBtn = document.getElementById('exit-btn');
+    if (exitBtn) {
+        exitBtn.style.display = 'inline-flex';
+        exitBtn.addEventListener('click', () => {
+             window.electronAPI.quitApp();
         });
     }
 }

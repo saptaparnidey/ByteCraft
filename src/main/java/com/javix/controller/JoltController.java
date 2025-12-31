@@ -1,8 +1,8 @@
-package com.bytecraft.controller;
+package com.javix.controller;
 
-import com.bytecraft.model.FormatResponse;
-import com.bytecraft.model.JoltRequest;
-import com.bytecraft.service.JoltService;
+import com.javix.model.FormatResponse;
+import com.javix.model.JoltRequest;
+import com.javix.service.JoltService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

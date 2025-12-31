@@ -1,13 +1,13 @@
-package com.bytecraft;
+package com.javix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ByteCraftApplication {
+public class JavixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ByteCraftApplication.class, args);
+		SpringApplication.run(JavixApplication.class, args);
 	}
 
 }

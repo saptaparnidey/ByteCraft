@@ -1,4 +1,4 @@
-package com.bytecraft.model;
+package com.javix.model;
 
 public class JoltRequest {
     private String inputJson;

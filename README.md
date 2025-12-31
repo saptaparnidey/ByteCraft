@@ -1,6 +1,6 @@
-# ByteCraft - Advanced Web-Based Code Utility Platform
+# Javix - Advanced Web-Based Code Utility Platform
 
-ByteCraft is a feature-rich, web-based tool designed for developers to write, execute, format, and transform code seamlessly. It combines a robust Java editor with powerful utilities for JSON and XML manipulation, wrapped in a modern, customizable user interface.
+Javix is a feature-rich, web-based tool designed for developers to write, execute, format, and transform code seamlessly. It combines a robust Java editor with powerful utilities for JSON and XML manipulation, wrapped in a modern, customizable user interface.
 
 ## 🚀 Features
 
@@ -60,7 +60,7 @@ ByteCraft is a feature-rich, web-based tool designed for developers to write, ex
 
     ```bash
     git clone <repository-url>
-    cd ByteCraft
+    cd Javix
     ```
 
 2.  **Build the project**:
@@ -81,7 +81,7 @@ ByteCraft is a feature-rich, web-based tool designed for developers to write, ex
 
 ### 🖥️ Run as Desktop App (Electron)
 
-ByteCraft can be run as a native desktop application using Electron.
+Javix can be run as a native desktop application using Electron.
 
 > **Note**: You must have Node.js and npm installed.
 

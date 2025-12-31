@@ -1,8 +1,8 @@
-package com.bytecraft.controller;
+package com.javix.controller;
 
-import com.bytecraft.model.CodeRequest;
-import com.bytecraft.model.CodeResponse;
-import com.bytecraft.service.CodeExecutionService;
+import com.javix.model.CodeRequest;
+import com.javix.model.CodeResponse;
+import com.javix.service.CodeExecutionService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
